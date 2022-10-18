@@ -12,10 +12,10 @@ int main(void)
 	unsigned long second = 1;
 	unsigned long fib;
 
-	while (counter <= 97)
+	while (counter <= 94)
 	{
 		fib = first + second;
-		if (counter < 97)
+		if (counter < 94)
 		{
 			printf("%lu, ", fib);
 		}
